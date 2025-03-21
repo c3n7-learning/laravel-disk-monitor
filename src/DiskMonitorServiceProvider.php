@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Tefabi\DiskMonitor;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Tefabi\DiskMonitor\Commands\DiskMonitorCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class DiskMonitorServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('disk-monitor')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_disk_monitor_table')
+            ->hasCommand(DiskMonitorCommand::class);
     }
 }

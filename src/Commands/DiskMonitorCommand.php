@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Tefabi\DiskMonitor\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class DiskMonitorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'disk-monitor';
 
     public $description = 'My command';
 
