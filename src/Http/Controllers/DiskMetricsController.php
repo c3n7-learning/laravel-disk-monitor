@@ -2,6 +2,7 @@
 
 namespace Tefabi\DiskMonitor\Http\Controllers;
 
+use Illuminate\Support\Facades\View;
 use Tefabi\DiskMonitor\Models\DiskMonitorEntry;
 
 class DiskMetricsController
@@ -10,6 +11,6 @@ class DiskMetricsController
     {
         $entries = DiskMonitorEntry::latest()->get();
 
-        return view('disk-monitor::entries', compact('entries'));
+        return View::make('disk-monitor::entries', compact('entries'));
     }
 }
