@@ -1,8 +1,8 @@
 # This is a disk monitor for laravel.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tefabi/disk-monitor.svg?style=flat-square)](https://packagist.org/packages/tefabi/disk-monitor)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/c3n7-learning/disk-monitor/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/c3n7-learning/disk-monitor/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/c3n7-learning/disk-monitor/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/c3n7-learning/disk-monitor/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/c3n7-learning/laravel-disk-monitor/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/c3n7-learning/laravel-disk-monitor/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/c3n7-learning/laravel-disk-monitor/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/c3n7-learning/laravel-disk-monitor/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/tefabi/disk-monitor.svg?style=flat-square)](https://packagist.org/packages/tefabi/disk-monitor)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
