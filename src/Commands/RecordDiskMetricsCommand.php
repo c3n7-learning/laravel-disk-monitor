@@ -4,7 +4,7 @@ namespace Tefabi\DiskMonitor\Commands;
 
 use Illuminate\Console\Command;
 
-class DiskMonitorCommand extends Command
+class RecordDiskMetricsCommand extends Command
 {
     public $signature = 'disk-monitor';
 
