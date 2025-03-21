@@ -5,6 +5,7 @@ use Tefabi\DiskMonitor\Tests\TestCase;
 
 uses(TestCase::class)
     ->beforeEach(function () {
-        Storage::fake();
+        Storage::fake('local');
+        Storage::fake('anotherDisk');
     })
     ->in(__DIR__);
